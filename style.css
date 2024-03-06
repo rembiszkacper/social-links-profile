@@ -1,0 +1,67 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  min-height: 100vh;
+  margin: 0;
+  font-size: 16px;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  background-color: hsl(0, 0%, 12%);
+  padding: 20px;
+  max-width: 370px;
+  min-width: 50px;
+  border-radius: 20px;
+  margin: 0 1em;
+}
+.author-container {
+  text-align: center;
+}
+img {
+  width: 80px;
+  border-radius: 50px;
+}
+h2 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  margin: 7px 0;
+}
+.location {
+  color: hsl(75, 94%, 57%);
+  font-weight: 700;
+  font-size: 12px;
+  margin: 0;
+}
+p {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  padding: 5px 0;
+}
+
+ul {
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+li {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  list-style: none;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 10px;
+  padding: 10px 0;
+}
+
+li:hover {
+  color: hsl(0, 0%, 12%);
+  background-color: hsl(75, 94%, 57%);
+}
