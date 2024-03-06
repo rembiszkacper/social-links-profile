@@ -28,7 +28,7 @@ img {
   width: 80px;
   border-radius: 50px;
 }
-h2 {
+h1 {
   color: hsl(0, 0%, 100%);
   font-weight: 400;
   margin: 7px 0;
@@ -36,7 +36,6 @@ h2 {
 .location {
   color: hsl(75, 94%, 57%);
   font-weight: 700;
-  font-size: 12px;
   margin: 0;
 }
 p {
